@@ -1,0 +1,428 @@
+2025-08-18 01:06:29,500 - QimenAPI - INFO - 🚀 启动奇门遁甲API服务: http://0.0.0.0:5000
+2025-08-18 01:06:29,516 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-08-18 01:06:29,516 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 01:07:11,091 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:07:11] "GET /health HTTP/1.1" 200 -
+2025-08-18 01:07:11,161 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:07:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-18 01:09:42,279 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:09:42] "POST /predict HTTP/1.1" 200 -
+2025-08-18 01:24:32,430 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:24:32] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 01:25:32,690 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:25:32] "POST /predict HTTP/1.1" 200 -
+2025-08-18 01:35:40,868 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:35:40] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 01:36:48,677 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:36:48] "POST /predict HTTP/1.1" 200 -
+2025-08-18 01:43:02,386 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:43:02] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 01:44:12,482 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:44:12] "POST /predict HTTP/1.1" 200 -
+2025-08-18 01:47:18,049 - QimenAPI - INFO - 🚀 启动奇门遁甲API服务: http://0.0.0.0:5000
+2025-08-18 01:47:18,060 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-08-18 01:47:18,060 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 01:47:53,293 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:47:53] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 01:48:50,163 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:48:50] "POST /predict HTTP/1.1" 200 -
+2025-08-18 01:54:46,458 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:54:46] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 01:55:41,515 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:55:41] "POST /predict HTTP/1.1" 200 -
+2025-08-18 01:56:34,504 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:56:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 01:57:33,039 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 01:57:33] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:00:46,645 - QimenAPI - INFO - 🚀 启动奇门遁甲API服务: http://0.0.0.0:5000
+2025-08-18 02:00:46,656 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-08-18 02:00:46,656 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 02:01:36,671 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:01:36] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 02:02:40,273 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-08-18 02:02:40,274 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:02:40] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:02:52,657 - QimenAPI - INFO - 🚀 启动奇门遁甲API服务: http://0.0.0.0:5000
+2025-08-18 02:02:52,670 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-08-18 02:02:52,670 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 02:03:12,654 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:03:12] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 02:04:13,146 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-08-18 02:04:13,147 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:04:13] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:07:07,668 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:07:07] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 02:08:16,706 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:08:16] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:11:33,780 - QimenAPI - INFO - 🚀 启动奇门遁甲API服务: http://0.0.0.0:5000
+2025-08-18 02:11:33,794 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-08-18 02:11:33,795 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 02:12:19,092 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:12:19] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 02:13:21,469 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:13:21] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:26:54,491 - QimenAPI - INFO - 🚀 启动奇门遁甲API服务: http://0.0.0.0:5000
+2025-08-18 02:26:54,502 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-08-18 02:26:54,502 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 02:34:58,738 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:34:58] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 02:34:59,032 - QimenAPI - ERROR - 读取role_content.txt失败: [Errno 2] No such file or directory: 'C:\\Users\\rain\\Desktop\\python222_admin3 更新7.7\\python222_admin3\\A_qimen\\api\\..\\role_content.txt'
+2025-08-18 02:34:59,032 - QimenAPI - ERROR - 读取response_requirements.txt失败: [Errno 2] No such file or directory: 'C:\\Users\\rain\\Desktop\\python222_admin3 更新7.7\\python222_admin3\\A_qimen\\api\\..\\response_requirements.txt'
+2025-08-18 02:35:50,301 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:35:50] "POST /predict HTTP/1.1" 200 -
+2025-08-18 02:53:40,709 - QimenAPI - INFO - 当前文件目录: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api
+2025-08-18 02:53:40,709 - QimenAPI - INFO - 项目根目录: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..
+2025-08-18 02:53:40,709 - QimenAPI - INFO - 角色内容文件路径: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 02:53:40,709 - QimenAPI - INFO - 响应要求文件路径: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 02:53:40,709 - QimenAPI - INFO - API密钥文件路径: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\api_key.txt
+2025-08-18 02:53:40,711 - QimenAPI - INFO - 日志目录: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\logs
+2025-08-18 02:53:40,711 - QimenAPI - WARNING - 文件不存在: role_content.txt
+2025-08-18 02:53:40,712 - QimenAPI - WARNING - 文件不存在: response_requirements.txt
+2025-08-18 02:53:40,713 - QimenAPI - WARNING - 文件不存在: api_key.txt
+2025-08-18 02:53:40,713 - QimenAPI - INFO - 🚀 启动奇门遁甲API服务: http://0.0.0.0:5000
+2025-08-18 02:53:40,725 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-08-18 02:53:40,726 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-18 02:54:07,654 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:54:07] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 02:54:07,920 - QimenAPI - INFO - 接收预测请求: 问题：95女喜欢03女吗...
+2025-08-18 02:54:07,921 - QimenAPI - INFO - 使用当前时间: 2025-8-18 2:54
+2025-08-18 02:54:07,932 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '乙丑'}
+2025-08-18 02:54:07,946 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 02:54:07,947 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 02:54:07,947 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 02:54:07,947 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 02:54:07,947 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 02:54:07,948 - QimenAPI - INFO - 添加用户问题: 问题：95女喜欢03女吗...
+2025-08-18 02:54:07,948 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 02:56:39,410 - QimenAPI - INFO - 成功获取预测结果，长度: 1177字符
+2025-08-18 02:56:39,411 - QimenAPI - INFO - 预测结果长度: 1177字符
+2025-08-18 02:56:39,411 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 02:56:39] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:03:00,023 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:03:00] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 03:03:00,288 - QimenAPI - INFO - 接收预测请求: 问题：今年03年女能搞多少钱...
+2025-08-18 03:03:00,289 - QimenAPI - INFO - 使用当前时间: 2025-8-18 3:3
+2025-08-18 03:03:00,289 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '乙丑'}
+2025-08-18 03:03:00,301 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:03:00,301 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:03:00,302 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:03:00,303 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:03:00,303 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:03:00,303 - QimenAPI - INFO - 添加用户问题: 问题：今年03年女能搞多少钱...
+2025-08-18 03:03:00,303 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:05:17,635 - QimenAPI - INFO - 成功获取预测结果，长度: 1439字符
+2025-08-18 03:05:17,636 - QimenAPI - INFO - 预测结果长度: 1439字符
+2025-08-18 03:05:17,637 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:05:17] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:38:33,477 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:38:33] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 03:38:33,740 - QimenAPI - INFO - 接收预测请求: 问题：03女25 26年能赚多少钱...
+2025-08-18 03:38:33,740 - QimenAPI - INFO - 使用当前时间: 2025-8-18 3:38
+2025-08-18 03:38:33,740 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '乙丑'}
+2025-08-18 03:38:33,747 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:38:33,748 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:38:33,748 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:38:33,748 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:38:33,748 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:38:33,748 - QimenAPI - INFO - 添加用户问题: 问题：03女25 26年能赚多少钱...
+2025-08-18 03:38:33,748 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:40:50,201 - QimenAPI - INFO - 成功获取预测结果，长度: 1368字符
+2025-08-18 03:40:50,202 - QimenAPI - INFO - 预测结果长度: 1368字符
+2025-08-18 03:40:50,202 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:40:50] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:42:51,484 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:42:51] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 03:42:51,751 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:42:51,751 - QimenAPI - INFO - 使用当前时间: 2025-8-18 3:42
+2025-08-18 03:42:51,751 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '乙丑'}
+2025-08-18 03:42:51,758 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:42:51,758 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:42:51,759 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:42:51,759 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:42:51,759 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:42:51,759 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:42:51,759 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:45:02,276 - QimenAPI - INFO - 成功获取预测结果，长度: 1863字符
+2025-08-18 03:45:02,276 - QimenAPI - INFO - 预测结果长度: 1863字符
+2025-08-18 03:45:02,277 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:45:02] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:51:26,168 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:51:26] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 03:51:26,430 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:51:26,430 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:51:26,431 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:51:26,438 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:51:26,439 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:51:26,439 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:51:26,439 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:51:26,439 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:51:26,439 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:51:26,439 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:51:26,456 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:51:26,456 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:51:26,457 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:51:26] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:51:32,360 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:51:32] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 03:51:32,675 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:51:32,675 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:51:32,676 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:51:32,697 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:51:32,698 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:51:32,699 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:51:32,699 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:51:32,699 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:51:32,699 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:51:32,699 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:51:32,730 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:51:32,731 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:51:32,731 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:51:32] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:51:35,117 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:51:35,117 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:51:35,118 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:51:35,124 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:51:35,125 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:51:35,125 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:51:35,125 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:51:35,125 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:51:35,125 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:51:35,125 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:51:35,141 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:51:35,142 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:51:35,142 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:51:35] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:51:35,956 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:51:35,957 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:51:35,957 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:51:35,964 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:51:35,965 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:51:35,965 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:51:35,965 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:51:35,966 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:51:35,966 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:51:35,966 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:51:35,983 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:51:35,983 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:51:35,983 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:51:35] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:51:59,905 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:51:59] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 03:52:00,221 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:00,222 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:00,222 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:00,226 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:00,227 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:00,227 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:00,227 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:00,227 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:00,227 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:00,227 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:00,239 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:00,239 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:00,239 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:00] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:00,855 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:00,856 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:00,856 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:00,863 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:00,863 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:00,864 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:00,864 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:00,864 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:00,864 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:00,864 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:00,881 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:00,881 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:00,881 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:00] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:01,581 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:01,582 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:01,582 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:01,587 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:01,588 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:01,588 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:01,588 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:01,588 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:01,588 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:01,588 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:01,605 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:01,605 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:01,605 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:01] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:01,916 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:01,916 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:01,917 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:01,921 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:01,921 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:01,922 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:01,922 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:01,922 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:01,922 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:01,922 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:01,934 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:01,934 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:01,934 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:01] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:02,410 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:02,411 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:02,411 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:02,416 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:02,417 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:02,417 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:02,417 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:02,417 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:02,417 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:02,417 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:02,458 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:02,459 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:02,459 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:02] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:02,675 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:02,675 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:02,675 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:02,680 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:02,681 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:02,681 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:02,681 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:02,681 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:02,681 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:02,681 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:02,719 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:02,719 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:02,720 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:02] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:02,891 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:02,891 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:02,891 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:02,897 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:02,897 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:02,897 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:02,898 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:02,898 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:02,898 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:02,898 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:02,911 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:02,911 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:02,911 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:02] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:03,062 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:03,062 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:03,063 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:03,069 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:03,070 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:03,070 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:03,070 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:03,070 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:03,070 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:03,070 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:03,083 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:03,083 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:03,083 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:03] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:03,515 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:03,517 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:03,517 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:03,523 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:03,523 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:03,524 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:03,524 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:03,524 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:03,524 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:03,524 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:03,535 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:03,535 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:03,536 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:03] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:03,779 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:03,780 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:03,781 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:03,788 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:03,788 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:03,789 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:03,789 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:03,789 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:03,789 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:03,789 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:03,804 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:03,804 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:03,805 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:03] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:04,028 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:04,029 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:04,029 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:04,035 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:04,036 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:04,036 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:04,037 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:04,037 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:04,037 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:04,037 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:04,051 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:04,051 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:04,052 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:04] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:04,187 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:04,187 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:04,187 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:04,192 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:04,194 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:04,194 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:04,194 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:04,194 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:04,194 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:04,194 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:04,206 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:04,206 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:04,206 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:04] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:04,662 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:04,662 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:04,663 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:04,669 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:04,669 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:04,670 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:04,670 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:04,670 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:04,670 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:04,670 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:04,685 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:04,685 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:04,686 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:04] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:05,544 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:05] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 03:52:05,850 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:05,850 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:05,850 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:05,855 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:05,855 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:05,856 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:05,856 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:05,856 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:05,856 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:05,856 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:05,889 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:05,889 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:05,890 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:05] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:06,251 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:06,251 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:06,252 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:06,259 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:06,260 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:06,260 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:06,260 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:06,260 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:06,260 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:06,260 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:06,291 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:06,291 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:06,292 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:06] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:52:07,156 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:07,156 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:52:07,157 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:52:07,162 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:52:07,163 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:52:07,163 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:52:07,163 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:52:07,163 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:52:07,163 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:52:07,163 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:52:07,178 - QimenAPI - ERROR - 获取预测结果时出错: HTTPSConnectionPool(host='api.deepseek.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+2025-08-18 03:52:07,178 - QimenAPI - INFO - 预测结果长度: 217字符
+2025-08-18 03:52:07,178 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:52:07] "POST /predict HTTP/1.1" 200 -
+2025-08-18 03:53:40,317 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:53:40] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 03:53:40,580 - QimenAPI - INFO - 接收预测请求: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:53:40,580 - QimenAPI - INFO - 使用手动输入时间: 2025-8-18 4:40 坐标: 29.83,106.4
+2025-08-18 03:53:40,580 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 03:53:40,585 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 03:53:40,585 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 03:53:40,586 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 03:53:40,586 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 03:53:40,586 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 03:53:40,586 - QimenAPI - INFO - 添加用户问题: 问题：03女生在做预测网站 这个项目在25年和26年能赚多少钱...
+2025-08-18 03:53:40,586 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 03:55:20,191 - QimenAPI - INFO - 成功获取预测结果，长度: 1388字符
+2025-08-18 03:55:20,195 - QimenAPI - INFO - 预测结果长度: 1388字符
+2025-08-18 03:55:20,198 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 03:55:20] "POST /predict HTTP/1.1" 200 -
+2025-08-18 04:25:44,696 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 04:25:44] "OPTIONS /predict HTTP/1.1" 200 -
+2025-08-18 04:25:44,927 - QimenAPI - INFO - 接收预测请求: 问题：03女心情如何...
+2025-08-18 04:25:44,927 - QimenAPI - INFO - 使用当前时间: 2025-8-18 4:25
+2025-08-18 04:25:44,930 - QimenAPI - INFO - 四柱计算完成: {'年柱': '乙巳', '月柱': '甲申', '日柱': '己未', '时柱': '丙寅'}
+2025-08-18 04:25:44,949 - QimenAPI - INFO - 奇门排盘生成完成
+2025-08-18 04:25:44,958 - QimenAPI - INFO - 成功读取角色内容文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\role_content.txt
+2025-08-18 04:25:44,961 - QimenAPI - INFO - 成功读取响应要求文件: C:\Users\rain\Desktop\python222_admin3 更新7.7\python222_admin3\A_qimen\api\..\core\response_requirements.txt
+2025-08-18 04:25:44,961 - QimenAPI - INFO - 从环境变量获取API密钥
+2025-08-18 04:25:44,963 - QimenAPI - INFO - 系统提示初始化完成
+2025-08-18 04:25:44,964 - QimenAPI - INFO - 添加用户问题: 问题：03女心情如何...
+2025-08-18 04:25:44,964 - QimenAPI - INFO - 发送请求到DeepSeek API: https://api.deepseek.com/v1/chat/completions
+2025-08-18 04:26:59,733 - QimenAPI - INFO - 成功获取预测结果，长度: 1094字符
+2025-08-18 04:26:59,734 - QimenAPI - INFO - 预测结果长度: 1094字符
+2025-08-18 04:26:59,735 - werkzeug - INFO - 127.0.0.1 - - [18/Aug/2025 04:26:59] "POST /predict HTTP/1.1" 200 -

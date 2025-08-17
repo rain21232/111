@@ -1,0 +1,182 @@
+2025-07-13 22:39:36,928 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.baidu.com:443
+2025-07-13 22:39:37,344 - urllib3.connectionpool - DEBUG - https://www.baidu.com:443 "GET / HTTP/1.1" 200 227
+2025-07-13 22:39:37,345 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:39:38,244 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:39:38,245 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://api.deepseek.com
+2025-07-13 22:39:38,253 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://api.deepseek.com/v1/chat/completions
+2025-07-13 22:39:38,254 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:39:38,255 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:39:38,258 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:39:38,667 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-07-13 22:40:08,675 - DeepSeekConnection - INFO - ÇĞ»»µ½API¶Ëµã: https://api.deepseek.ai/v1/chat/completions
+2025-07-13 22:40:08,675 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-07-13 22:40:08,678 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:40:09,614 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:40:09,614 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://api.deepseek.com
+2025-07-13 22:40:09,618 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.113
+2025-07-13 22:40:11,631 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://api.deepseek.ai/v1/chat/completions
+2025-07-13 22:40:11,631 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:40:11,631 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:40:11,635 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.ai:443
+2025-07-13 22:40:12,061 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:12,062 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B39588>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:12,062 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.deepseek.ai:443
+2025-07-13 22:40:12,390 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:12,995 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B2EDC8>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:12,995 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): api.deepseek.ai:443
+2025-07-13 22:40:13,082 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:14,284 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B44908>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:14,285 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (4): api.deepseek.ai:443
+2025-07-13 22:40:14,360 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:16,768 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B42288>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:16,768 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (5): api.deepseek.ai:443
+2025-07-13 22:40:16,850 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:21,658 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B42BC8>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:21,658 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (6): api.deepseek.ai:443
+2025-07-13 22:40:21,729 - DeepSeekConnection - INFO - ÇĞ»»µ½API¶Ëµã: https://api.deepseek.cc/v1/chat/completions
+2025-07-13 22:40:21,729 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='api.deepseek.ai', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000216575C1448>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-07-13 22:40:21,730 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:40:22,487 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:40:22,488 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://api.deepseek.com
+2025-07-13 22:40:22,495 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.113
+2025-07-13 22:40:24,509 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://api.deepseek.cc/v1/chat/completions
+2025-07-13 22:40:24,509 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:40:24,509 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:40:24,511 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.cc:443
+2025-07-13 22:40:24,977 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:24,977 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658301988>: Failed to resolve 'api.deepseek.cc' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:24,978 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.deepseek.cc:443
+2025-07-13 22:40:25,111 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:25,722 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B3D448>: Failed to resolve 'api.deepseek.cc' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:25,722 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): api.deepseek.cc:443
+2025-07-13 22:40:25,871 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:27,075 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B3DE88>: Failed to resolve 'api.deepseek.cc' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:27,075 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (4): api.deepseek.cc:443
+2025-07-13 22:40:27,263 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:29,671 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B49808>: Failed to resolve 'api.deepseek.cc' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:29,671 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (5): api.deepseek.cc:443
+2025-07-13 22:40:29,731 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:40:34,537 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B4E188>: Failed to resolve 'api.deepseek.cc' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:40:34,537 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (6): api.deepseek.cc:443
+2025-07-13 22:40:34,651 - DeepSeekConnection - INFO - ÇĞ»»µ½API¶Ëµã: https://api.deepseek.com/v1/chat/completions
+2025-07-13 22:40:34,651 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='api.deepseek.cc', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021658B4EAC8>: Failed to resolve 'api.deepseek.cc' ([Errno 11001] getaddrinfo failed)"))
+2025-07-13 22:40:34,652 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:40:35,535 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:40:35,536 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://api.deepseek.com
+2025-07-13 22:40:35,541 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.113
+2025-07-13 22:49:18,197 - DeepSeekConnection - INFO - ¿ªÊ¼Ô¤½âÎöAPI¶Ëµã...
+2025-07-13 22:49:18,197 - DeepSeekConnection - INFO - ³¢ÊÔ½âÎö: api.deepseek.com
+2025-07-13 22:49:18,282 - DeepSeekConnection - INFO - ¿ÉÓÃAPI¶Ëµã: ['https://api.deepseek.com/v1/chat/completions']
+2025-07-13 22:49:18,285 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.baidu.com:443
+2025-07-13 22:49:18,701 - urllib3.connectionpool - DEBUG - https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2025-07-13 22:49:18,703 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:49:19,612 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:49:19,613 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://api.deepseek.com
+2025-07-13 22:49:19,614 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://api.deepseek.com/v1/chat/completions
+2025-07-13 22:49:19,614 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:49:19,614 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:49:19,615 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:49:20,078 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-07-13 22:50:05,122 - DeepSeekConnection - INFO - ÒÑË¢ĞÂDNS»º´æ (Windows)
+2025-07-13 22:50:05,122 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-07-13 22:50:05,124 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:50:06,420 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:50:06,421 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://api.deepseek.com
+2025-07-13 22:50:06,433 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.113
+2025-07-13 22:50:08,437 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://api.deepseek.com/v1/chat/completions
+2025-07-13 22:50:08,437 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:50:08,437 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:50:08,439 - urllib3.connectionpool - DEBUG - Resetting dropped connection: api.deepseek.com
+2025-07-13 22:50:08,833 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-07-13 22:50:53,855 - DeepSeekConnection - INFO - ÒÑË¢ĞÂDNS»º´æ (Windows)
+2025-07-13 22:50:53,855 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-07-13 22:50:53,856 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:50:54,720 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:50:54,721 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://api.deepseek.com
+2025-07-13 22:50:54,724 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.114
+2025-07-13 22:50:56,739 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://api.deepseek.com/v1/chat/completions
+2025-07-13 22:50:56,740 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:50:56,740 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:50:56,741 - urllib3.connectionpool - DEBUG - Resetting dropped connection: api.deepseek.com
+2025-07-13 22:50:57,143 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-07-13 22:51:42,161 - DeepSeekConnection - INFO - ÒÑË¢ĞÂDNS»º´æ (Windows)
+2025-07-13 22:51:42,161 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-07-13 22:51:42,163 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:51:42,967 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:51:42,968 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://api.deepseek.com
+2025-07-13 22:51:42,973 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.113
+2025-07-13 22:56:07,310 - DeepSeekConnection - INFO - api.deepseek.com ½âÎö³É¹¦ -> IP: 116.205.40.114
+2025-07-13 22:56:07,474 - DeepSeekConnection - ERROR - api.deepseek.ai ½âÎöÊ§°Ü: [Errno 11001] getaddrinfo failed
+2025-07-13 22:56:07,607 - DeepSeekConnection - ERROR - api.deepseek.cc ½âÎöÊ§°Ü: [Errno 11001] getaddrinfo failed
+2025-07-13 22:56:24,519 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.baidu.com:443
+2025-07-13 22:56:24,941 - urllib3.connectionpool - DEBUG - https://www.baidu.com:443 "GET / HTTP/1.1" 200 227
+2025-07-13 22:56:24,943 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 116.205.40.113:443
+2025-07-13 22:56:25,235 - urllib3.connectionpool - DEBUG - https://116.205.40.113:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:56:25,236 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://116.205.40.113
+2025-07-13 22:56:25,237 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://116.205.40.113/v1/chat/completions
+2025-07-13 22:56:25,237 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Accept-Language': 'en-US,en;q=0.9', 'Host': 'api.deepseek.com', 'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:56:25,237 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:56:25,239 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 116.205.40.113:443
+2025-07-13 22:56:25,709 - urllib3.connectionpool - DEBUG - https://116.205.40.113:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-07-13 22:56:55,720 - DeepSeekConnection - INFO - ÇĞ»»µ½API¶Ëµã: https://api.deepseek.com/v1/chat/completions
+2025-07-13 22:56:55,720 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='116.205.40.113', port=443): Read timed out.
+2025-07-13 22:56:55,721 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 116.205.40.113:443
+2025-07-13 22:56:56,035 - urllib3.connectionpool - DEBUG - https://116.205.40.113:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:56:56,035 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://116.205.40.113
+2025-07-13 22:56:56,108 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.113
+2025-07-13 22:56:58,115 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://api.deepseek.com/v1/chat/completions
+2025-07-13 22:56:58,115 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Accept-Language': 'en-US,en;q=0.9', 'Host': 'api.deepseek.com', 'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:56:58,115 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:56:58,117 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 22:56:58,583 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-07-13 22:57:28,596 - DeepSeekConnection - INFO - ÇĞ»»µ½API¶Ëµã: https://api.deepseek.ai/v1/chat/completions
+2025-07-13 22:57:28,597 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-07-13 22:57:28,599 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 116.205.40.113:443
+2025-07-13 22:57:28,919 - urllib3.connectionpool - DEBUG - https://116.205.40.113:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:57:28,919 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://116.205.40.113
+2025-07-13 22:57:28,923 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.113
+2025-07-13 22:57:30,926 - DeepSeekConnection - DEBUG - ·¢ËÍÇëÇóµ½: https://api.deepseek.ai/v1/chat/completions
+2025-07-13 22:57:30,927 - DeepSeekConnection - DEBUG - ÇëÇóÍ·: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Accept-Language': 'en-US,en;q=0.9', 'Host': 'api.deepseek.ai', 'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 22:57:30,927 - DeepSeekConnection - DEBUG - ÇëÇóÌå: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ÄãÊÇÒ»Î»¾«Í¨ÆæÃÅ¶İ¼×µÄ×ÚÊ¦£¬Êì¶Áº£Á¿µÄÆæÃÅ¶İ¼×ÊµÕ½°¸Àı£¬\n²¢¾«Í¨ÒÔÏÂÆæÃÅ¶İ¼×µä¼®£º\n\n## ÀíÂÛµì»ù\n¡¶Óù¶¨ÆæÃÅ¶İ¼×¡·¡¶Óù¶¨ÆæÃÅ±¦¼ø¡·¡¶ÆæÃÅ¶İ¼×¾­¡·¡¶¾°µv¶İ¼×·ûÓ¦¾­¡·¡¶¶İ¼×ÑİÒå¡·¡¶ÆæÃÅ´ó³ÉĞÄ·¨¡·¡¶ÆæÃÅÖ¼¹é¡·  \n¡¶ÆæÃÅ·¨ÇÏ¡·¡¶ÆæÃÅÊàÒª¡·¡¶ÎäºîĞĞ±ø¶İ¼×½ğº¯Óñ¾µº£µ×ÑÛ¡·¡¶ÆæÃÅ¶İ¼×ÕæÚ¹¡·¡¶»ÆµÛÒõ·û¾­¡·\n¡¶ÆæÃÅ¶İ¼×ÃØóÅÈ«Êé¡·£¨Áõ²®ÎÂ£©¡¶»ÆµÛÒõ·û¾­Èı»ÊÓñ¾÷¡·¡¶¶İ¼×Éñ»ú¸³¡·\n¡¶ÉñÆæÖ®ÃÅ¡·£¨ÕÅÖ¾´º£©¡¶¶İ¼×ÑİĞş¡· ¡¶ÆæÃÅ¶İ¼×Ê±¿Õ»ùÒòÑ§¡·¡¶ÆæÃÅ¶İ¼×Í³×Ú´óÈ«¡·\n¡¶ÆæÃÅ¶İ¼×ÏÖ´úÓ¦ÓÃÑ§¡·¡¶ÒõÅÌ¶İ¼×ÈÏÖª¿ÆÑ§¡·¡¶ÑÌ²¨µöÛÅ¸è¡·\n\n\n## »ù´¡ÊµÕ½¾«Òª  \n¡¶ÆæÃÅ¶İ¼×Óñº¯Í¨ÃØ¡·¡¶ÆæÃÅ¶İ¼×ÊµÓÃÔ¤²âÑ§¡·¡¶ÆæÃÅÃØ´«¾Å¹¬×ëÒª¡·¡¶ÆæÃÅ¶İ¼×À¨ÄÒ¼¯¡·  ¡¶ÆæÃÅ¶İ¼×ÈòÆæ½â¡·\n¡¶ÆæÃÅ¶İ¼×·çË®Ñ§¡·¡¶ÆæÃÅ¶İ¼×·ûÖäÈ«Êé¡·¡¶ÃØ´«ÏÉÊÚÆæÃÅ¡·¡¶ÆæÃÅ¶İ¼×±¸ÀÀ¡·¡¶ÆæÃÅÃØÒª¡·¡¶ÀîÎÀ¹«ÆæÃÅĞÄ·¨¡·\n¡¶ÆæÃÅÊµÖ¤300Àı¡·¡¶Ã÷ÇåÆæÃÅÕ¼ÑéÊµÂ¼¡·¡¶¶İ¼×´©ÈÉÑİÊ½¡·¡¶...
+2025-07-13 22:57:30,928 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.ai:443
+2025-07-13 22:57:31,000 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=4, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:57:31,000 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D06F67FB08>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:57:31,002 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.deepseek.ai:443
+2025-07-13 22:57:31,083 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:57:31,684 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D06F67FA08>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:57:31,684 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): api.deepseek.ai:443
+2025-07-13 22:57:31,717 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:57:32,920 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D06F66C908>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:57:32,920 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (4): api.deepseek.ai:443
+2025-07-13 22:57:32,999 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:57:35,401 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D06F694D88>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:57:35,401 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (5): api.deepseek.ai:443
+2025-07-13 22:57:35,478 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/v1/chat/completions'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2025-07-13 22:57:40,289 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D06F69C2C8>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-13 22:57:40,289 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (6): api.deepseek.ai:443
+2025-07-13 22:57:40,352 - DeepSeekConnection - INFO - ÇĞ»»µ½API¶Ëµã: https://api.deepseek.cc/v1/chat/completions
+2025-07-13 22:57:40,353 - DeepSeekConnection - ERROR - ÍøÂç´íÎó: HTTPSConnectionPool(host='api.deepseek.ai', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D06F69CC88>: Failed to resolve 'api.deepseek.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-07-13 22:57:40,354 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): 116.205.40.113:443
+2025-07-13 22:57:40,678 - urllib3.connectionpool - DEBUG - https://116.205.40.113:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 22:57:40,678 - DeepSeekConnection - INFO - ³É¹¦Á¬½Óµ½ https://116.205.40.113
+2025-07-13 22:57:40,761 - DeepSeekConnection - INFO - ³É¹¦½âÎöAPIµØÖ·: 116.205.40.113
+2025-07-13 23:00:06,141 - DeepSeekConnection - INFO - å¼€å§‹é¢„è§£æAPIç«¯ç‚¹...
+2025-07-13 23:00:06,141 - DeepSeekConnection - INFO - å°è¯•è§£æ: api.deepseek.com
+2025-07-13 23:00:06,194 - DeepSeekConnection - INFO - è§£ææˆåŠŸ: api.deepseek.com -> 116.205.40.113
+2025-07-13 23:00:06,194 - DeepSeekConnection - INFO - å¯ç”¨APIç«¯ç‚¹: ['https://api.deepseek.com/v1/chat/completions']
+2025-07-13 23:00:06,194 - DeepSeekConnection - INFO - éªŒè¯APIå¯†é’¥æœ‰æ•ˆæ€§...
+2025-07-13 23:00:06,196 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 23:00:06,565 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-07-13 23:00:10,578 - DeepSeekConnection - INFO - APIå¯†é’¥éªŒè¯é€šè¿‡
+2025-07-13 23:00:10,579 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.baidu.com:443
+2025-07-13 23:00:11,022 - urllib3.connectionpool - DEBUG - https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2025-07-13 23:00:11,024 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 23:00:11,859 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "HEAD / HTTP/1.1" 404 0
+2025-07-13 23:00:11,860 - DeepSeekConnection - DEBUG - å‘é€è¯·æ±‚åˆ°: https://api.deepseek.com/v1/chat/completions
+2025-07-13 23:00:11,860 - DeepSeekConnection - DEBUG - è¯·æ±‚å¤´: {'Authorization': 'Bearer sk-14bec252ab4a4e38bda32150dc4716e0', 'Content-Type': 'application/json'}
+2025-07-13 23:00:11,860 - DeepSeekConnection - DEBUG - è¯·æ±‚ä½“: {"model": "deepseek-reasoner", "messages": [{"role": "system", "content": "\n        ###ä½ æ˜¯ä¸€ä½ç²¾é€šå¥‡é—¨éç”²çš„å®—å¸ˆï¼Œç†Ÿè¯»æµ·é‡çš„å¥‡é—¨éç”²å®æˆ˜æ¡ˆä¾‹ï¼Œ\nå¹¶ç²¾é€šä»¥ä¸‹å¥‡é—¨éç”²å…¸ç±ï¼š\n\n## ç†è®ºå¥ åŸº\nã€Šå¾¡å®šå¥‡é—¨éç”²ã€‹ã€Šå¾¡å®šå¥‡é—¨å®é‰´ã€‹ã€Šå¥‡é—¨éç”²ç»ã€‹ã€Šæ™¯ç¥éç”²ç¬¦åº”ç»ã€‹ã€Šéç”²æ¼”ä¹‰ã€‹ã€Šå¥‡é—¨å¤§æˆå¿ƒæ³•ã€‹ã€Šå¥‡é—¨æ—¨å½’ã€‹  \nã€Šå¥‡é—¨æ³•çªã€‹ã€Šå¥‡é—¨æ¢è¦ã€‹ã€Šæ­¦ä¾¯è¡Œå…µéç”²é‡‘å‡½ç‰é•œæµ·åº•çœ¼ã€‹ã€Šå¥‡é—¨éç”²çœŸè¯ ã€‹ã€Šé»„å¸é˜´ç¬¦ç»ã€‹\nã€Šå¥‡é—¨éç”²ç§˜ç¬ˆå…¨ä¹¦ã€‹ï¼ˆåˆ˜ä¼¯æ¸©ï¼‰ã€Šé»„å¸é˜´ç¬¦ç»ä¸‰çš‡ç‰è¯€ã€‹ã€Šéç”²ç¥æœºèµ‹ã€‹\nã€Šç¥å¥‡ä¹‹é—¨ã€‹ï¼ˆå¼ å¿—æ˜¥ï¼‰ã€Šéç”²æ¼”ç„ã€‹ ã€Šå¥‡é—¨éç”²æ—¶ç©ºåŸºå› å­¦ã€‹ã€Šå¥‡é—¨éç”²ç»Ÿå®—å¤§å…¨ã€‹\nã€Šå¥‡é—¨éç”²ç°ä»£åº”ç”¨å­¦ã€‹ã€Šé˜´ç›˜éç”²è®¤çŸ¥ç§‘å­¦ã€‹ã€ŠçƒŸæ³¢é’“åŸæ­Œã€‹\n\n\n## åŸºç¡€å®æˆ˜ç²¾è¦  \nã€Šå¥‡é—¨éç”²ç‰å‡½é€šç§˜ã€‹ã€Šå¥‡é—¨éç”²å®ç”¨é¢„æµ‹å­¦ã€‹ã€Šå¥‡é—¨ç§˜ä¼ ä¹å®«çº‚è¦ã€‹ã€Šå¥‡é—¨éç”²æ‹¬å›Šé›†ã€‹  ã€Šå¥‡é—¨éç”²é—°å¥‡è§£ã€‹\nã€Šå¥‡é—¨éç”²é£æ°´å­¦ã€‹ã€Šå¥‡é—¨éç”²ç¬¦å’’å…¨ä¹¦ã€‹ã€Šç§˜ä¼ ä»™æˆå¥‡é—¨ã€‹ã€Šå¥‡é—¨éç”²å¤‡è§ˆã€‹ã€Šå¥‡é—¨ç§˜è¦ã€‹ã€Šæå«å…¬å¥‡é—¨å¿ƒæ³•ã€‹\nã€Šå¥‡é—¨å®è¯300ä¾‹ã€‹ã€Šæ˜æ¸…å¥‡é—¨å éªŒå®å½•ã€‹ã€Šéç”²ç©¿å£¬æ¼”å¼ã€‹ã€Š...
+2025-07-13 23:00:11,862 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.deepseek.com:443
+2025-07-13 23:00:12,275 - urllib3.connectionpool - DEBUG - https://api.deepseek.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+2025-07-13 23:01:28,681 - DeepSeekConnection - DEBUG - å“åº”çŠ¶æ€ç : 200
+2025-07-13 23:01:28,682 - DeepSeekConnection - DEBUG - å“åº”å†…å®¹: 
+{"id":"e6bb7be4-9e3f-436a-92d7-044804a59135","object":"chat.completion","created":1752418811,"model":"deepseek-reasoner","choices":[{"index":0,"message":{"role":"assistant","content":"æ ¹æ®å¥‡é—¨éç”²æ’ç›˜ä¿¡æ¯ï¼Œç»“åˆæ‚¨æœªæ˜ç¡®è¯´æ˜çš„å…·ä½“é—®é¢˜ç±»å‹ï¼Œæˆ‘å°†æŒ‰ç…§é€šç”¨åˆ†æé€»è¾‘ï¼ˆé“¾01ï¼‰è¿›è¡ŒåŸºç¡€è¿åŠ¿è§£è¯»ã€‚ä»¥ä¸‹æ˜¯æ ¸å¿ƒç»“è®ºï¼š\n\n### ã€æ ¸å¿ƒç»“è®ºã€‘âš ï¸  \nå½“å‰æ ¼å±€æ˜¾ç¤ºã€Œäº‹ä½“èŒèŠ½ä½†æ ¹åŸºæœªç¨³ã€ï¼Œæ—¥å¹²å£¬æ°´è½ç¦»å®«ï¼ˆå—ï¼‰å¤„èƒä½ï¼Œä¸»æ–°ç”Ÿäº‹ç‰©åˆç°ç«¯å€ªï¼›æ—¶å¹²ä¹™æœ¨ä¸´å¤å®«ï¼ˆè¥¿å—ï¼‰å† å¸¦çŠ¶æ€ï¼Œé¢„ç¤ºè®¡åˆ’æ­£åœ¨ç­¹å¤‡é˜¶æ®µã€‚ä½†æ­»é—¨+å¤©è¾…æ˜ŸåŒå®«ï¼Œéœ€è­¦æƒ•æ–‡ä¹¦é˜»æ»æˆ–æ²Ÿé€šéšœç¢ã€‚\n\n---\n\n### ã€å…³é”®æ ¼å±€åˆ†æã€‘\n1. **æ—¥å¹²ï¼ˆè‡ªèº«çŠ¶æ€ï¼‰**  \n   - å®«ä½ï¼šç¦»å®«ï¼ˆå—ï¼‰ğŸ”¥  \n   - ç¬¦å·ï¼šå€¼ç¬¦ï¼ˆè´µäººï¼‰ + å¤©è¾…ï¼ˆæ–‡æ•™æ˜Ÿï¼‰ + æ­»é—¨ï¼ˆé˜»æ»ï¼‰  \n   - çŠ¶æ€ï¼šå£¬æ°´å¤„ã€Œèƒã€ä½ â†’ æ–°è®¡åˆ’/æƒ³æ³•åˆç”Ÿï¼Œä½†èƒ½é‡å¾®å¼±  \n   - ç¥ç…ï¼šæ¡ƒ
